@@ -25,7 +25,21 @@ $ sudo apt-get update
 $ sudo apt-get install ros-kinetic-desktop-full python-wstool python-catkin-tools build-essential
 ```
 
-## 2. Initialize and build the workspace
+## 2. Clone this repository
+
+Clone the repo
+
+```
+$ git clone git@github.com:Brazilian-Institute-of-Robotics/mccr-catkin_workspace.git
+```
+
+Navigate to the cloned repo
+
+```
+$ cd mccr-catkin_workspace
+```
+
+## 3. Initialize and build the workspace
 
 This will download and build all required packages
 
@@ -33,7 +47,7 @@ This will download and build all required packages
 $ ./init.sh
 ```
 
-## 3. Load the environment
+## 4. Load the environment
 
 You have to do this whenever you are going to use this workspace
 
@@ -41,11 +55,11 @@ You have to do this whenever you are going to use this workspace
 $ source env.sh
 ```
 
-## 4. Have fun!
+## 5. Have fun!
 
 Time to start coding... :)
 
-## 5. BONUS: Add package to workspace
+## 6. BONUS: Add package to workspace
 
 Add package
 
