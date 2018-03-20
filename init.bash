@@ -12,5 +12,5 @@ rosdep update
 rosdep install --from-paths src -i --rosdistro kinetic -y
 
 catkin init > /dev/null
-catkin config --install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=TRUE > /dev/null
+catkin config --install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON > /dev/null
 catkin build
