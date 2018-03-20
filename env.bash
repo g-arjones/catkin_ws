@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export ROS_OS_OVERRIDE="ubuntu:16.04:xenial"
-. ./install/setup.sh
+source ./install/setup.bash

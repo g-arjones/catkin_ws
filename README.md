@@ -44,7 +44,7 @@ $ cd mccr-catkin_workspace
 This will download and build all required packages
 
 ```
-$ ./init.sh
+$ ./init.bash
 ```
 
 ## 4. Load the environment
@@ -52,7 +52,7 @@ $ ./init.sh
 You have to do this whenever you are going to use this workspace
 
 ```
-$ source env.sh
+$ source env.bash
 ```
 
 ## 5. Have fun!

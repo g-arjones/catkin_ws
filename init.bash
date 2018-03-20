@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
-. /opt/ros/kinetic/setup.sh
+source /opt/ros/kinetic/setup.bash
 export ROS_OS_OVERRIDE="ubuntu:16.04:xenial"
 
 mkdir -p src
