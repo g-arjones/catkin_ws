@@ -22,7 +22,7 @@ Install apt packages:
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install ros-kinetic-desktop-full python-rosinstall-generator python-wstool python-rosinstall python-catkin-tools build-essential
+$ sudo apt-get install ros-kinetic-desktop-full python-wstool python-catkin-tools build-essential
 ```
 
 ## 2. Initialize and build the workspace
