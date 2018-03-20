@@ -1,6 +1,7 @@
 #!/bin/sh
 
 . /opt/ros/kinetic/setup.sh
+export ROS_OS_OVERRIDE="ubuntu:16.04:xenial"
 
 mkdir -p src
 wstool init -j8 src mccr.rosinstall
