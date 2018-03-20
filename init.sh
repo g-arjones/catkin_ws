@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 . /opt/ros/kinetic/setup.sh
 export ROS_OS_OVERRIDE="ubuntu:16.04:xenial"
 
