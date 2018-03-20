@@ -64,28 +64,28 @@ Time to start coding... :)
 Add package
 
 ```
-wstool set robot_model --git https://kforge.ros.org/robotmodel/robot_model
+$ wstool set robot_model --git https://kforge.ros.org/robotmodel/robot_model
 ```
 
 Download package
 
 ```
-wstool update -t src
+$ wstool update -t src
 ```
 
 Install dependencies
 ```
-rosdep install --from-paths src -i --rosdistro kinetic -y
+$ rosdep install --from-paths src -i --rosdistro kinetic -y
 ```
 
 Rebuild the workspace
 
 ```
-catkin build
+$ catkin build
 ```
 
 Overwrite rosinstall file
 
 ```
-cp src/.rosinstall workspace.rosinstall
+$ cp src/.rosinstall workspace.rosinstall
 ```
