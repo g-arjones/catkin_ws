@@ -6,7 +6,8 @@ source /opt/ros/kinetic/setup.bash
 source ./overrides.bash
 
 mkdir -p src
-wstool init -j8 src mccr.rosinstall
+[ -f "src/.rosinstall" ] || wstool init -j8 src mccr.rosinstall
+
 sudo rosdep init
 rosdep update
 rosdep install --from-paths src -i --rosdistro kinetic -y
