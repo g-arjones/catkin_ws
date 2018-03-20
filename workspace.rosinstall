@@ -1,0 +1,3 @@
+- git:
+    local-name: rosmon
+    uri: git@github.com:xqms/rosmon.git
