@@ -8,7 +8,7 @@ source ./overrides.bash
 mkdir -p src
 [ -f "src/.rosinstall" ] || wstool init -j8 src mccr.rosinstall
 
-sudo rosdep init
+sudo rosdep init || true
 rosdep update
 rosdep install --from-paths src -i --rosdistro kinetic -y
 
